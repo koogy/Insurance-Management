@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+#navbar {
+  background-color: #f04c64;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navbar img {
+  width: 150px;
+  height: 100px;
+}
+
+#navbar div {
+  margin-left: auto;
+  padding: 10px;
+}
+
+.s_button {
+  height: 50px;
+  margin-top: 15px;
+  border: 2px solid black;
+  color: white;
+
+  font-weight: 200;
+  letter-spacing: 1px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: black;
+}
+
+.s_button div {
+  transition: transform 0.8s;
+}
+
+.s_button:hover div {
+  transform: translateX(-6px);
+}
+
+.container {
+  margin: 10px;
+}

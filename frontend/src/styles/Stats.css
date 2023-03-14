@@ -1,0 +1,17 @@
+.nice_stats {
+    margin-inline: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+.nice_stats th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nice_stats td {
+    border: 1px solid black;
+    padding: 10px;
+}

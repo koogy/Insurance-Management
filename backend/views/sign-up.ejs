@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Super Insurance</title>
+  <link href="/style/common.css" rel="stylesheet" type="text/css">
+    <link href="/styles/form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <%- include('navbar')%>
+    <div class="sign-up-form">
+        <div class="form-title">
+            <h1>Super Insurance</h1>
+            <%= signUpMessage %>
+        </div>
+
+        <form action=/api/auth/signup method="post" class="sign-up-form__form">
+          <label for="firstname">Prénom :<br>
+            <input type="text" name="firstName"/>
+          </label>
+          
+          <label for="lastname">Nom :<br>
+            <input type="text" name="lastName"/>
+          </label>
+          
+          <label for="email">Email :<br>
+            <input type="email" name="email"/>
+          </label>
+          
+          <label for="phoneNumber">Numéro de téléphone :<br>
+            <input type="text" name="phoneNumber"/>
+          </label>
+          
+          <label for="address">Adresse :<br>
+            <input type="text" name="address"/>
+          </label>
+          
+          <label for="city">Ville :<br>
+            <input type="text" name="city"/>
+          </label>
+          
+          <label for="password">Mot de passe :<br>
+            <input type="password" name="password"/>
+          </label>
+          
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+
+</html>
